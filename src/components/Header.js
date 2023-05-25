@@ -18,8 +18,8 @@ const Header = () => {
                 <div>
                     <Link className="btn btn-ghost normal-case text-xl" to='/'>Home</Link>
                     <Link className="btn btn-ghost normal-case text-xl" to='/dashboard'>Dashboard</Link>
-                    {/* <Link className="btn btn-ghost normal-case text-xl" to='/login'>LogIn</Link>
-                    <Link className="btn btn-ghost normal-case text-xl" to='/register'>Register</Link> */}
+                    {/* <Link className="btn btn-ghost normal-case text-xl" to='/login'>LogIn</Link> */}
+                    <Link className="btn btn-ghost normal-case text-xl" to='/register'>Register</Link>
                     {user?.email && <span>{user.email}</span>}
                     {
                         user?.email ?
